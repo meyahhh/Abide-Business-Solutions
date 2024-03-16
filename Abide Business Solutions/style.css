@@ -1,0 +1,358 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* fonts */
+.dm-sans-custom {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+  }
+/* fonts */
+
+body {
+    min-height: 100vh;
+    background: #fff;
+    font-family: Syne, "DM Sans";
+    text-align: center;
+    color: #000;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+    font-size: 22px; 
+    height: 121px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family: "Syne", sans-serif;
+}
+
+.left-header{
+    display: flex;
+    margin-left: 120px;
+}
+.Home {
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+
+.Home:hover {
+    background-color: #8B74A4; 
+    background-color: transparent;
+}
+
+.About{
+    margin: 0 auto;
+    margin-left:200px;
+}
+
+.right-header{
+    display: flex;
+    margin-right: 120px;
+}
+
+.Services{
+    margin: 0 auto;
+    margin-right: 200px;
+}
+
+h3 {
+    font-size: 16px;
+    margin: 0;
+    margin-right: 10px; /* Adjusted spacing for smaller screens */
+}
+
+h1 {
+    margin: 0;
+}
+
+/* .left, .Intro, .right {
+    padding: 1em 0; /* Adjusted padding for smaller screens */
+/* } */ 
+
+.Intro {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+/* intro first section */
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.07415485278080698vh;
+    border-radius: 3vh;
+    border: 3.380588876772083vh solid #FFF;
+    background: #FFF;
+    width: 900px; /* Responsive width based on viewport width */
+    max-width: 100vh;
+    height: 254px; /* Let the height adjust automatically based on content */
+    max-height: 70vh;
+    flex-shrink: 0;
+    float: left;
+    margin-left: 0px;
+    margin-top: 16vh; 
+}
+
+.AnS {
+    display: flex;
+}
+
+#About {
+    float: left;
+    text-align: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    background-color: #8B74A4; /* Purple background color */
+    color: #fff; /* White text color */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif; /* Set font-family to DM Sans */
+    max-width: 35%; /* Set maximum width to 40% of the container */
+}
+
+#About h1, #About h3 {
+    margin: 0; /* Remove default margin for better spacing */
+}
+
+#Services {
+    color: #000;
+    text-align: right; /* Adjusted to right alignment */
+    float: right;
+}
+
+#Services h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    margin-bottom: 10px; /* Add some bottom margin to separate from the following content */
+    border-bottom: 2px solid #8B74A4; /* Corrected border styling */
+    border-radius: 3%;
+    font-family: "DM Sans", sans-serif; /* Set font-family to DM Sans */
+}
+
+#Services h3 {
+    font-size: 18px; /* Adjust as needed */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.68px;
+    font-family: "DM Sans", sans-serif; /* Set font-family to DM Sans */
+}
+
+.Contact {
+    position: relative;
+    background-color: #000;
+    width: 100vw; /* Full width of the viewport */
+    height: 375px;
+    flex-shrink: 0;
+    color: #fff; /* Set text color to white or desired color */
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact h1 {
+    margin: 10px 0; /* Add some margin for spacing between h1 and h3 */
+    font-size: 96px;
+
+}
+.Contact h3 {
+    margin: 10px 0;
+    font-size: 28px;
+
+}
+
+.footer {
+    background-color: #fff;
+    padding: 0%;
+    display: flex;
+    flex-direction: space-between;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.left{
+    width: 640px;
+    margin-top: 50px;
+}
+
+.left h3 {
+    margin: 0;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 20px; 
+    margin-bottom: 30px;
+}
+
+.weblogo {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-left: 700px; */
+    /* height: 500px; */
+    width: 640px;
+    margin-top: 0px;
+}
+
+.weblogo img{
+    width: 300px;
+    height: 237px;
+}
+
+
+.right h3 {
+    text-align: right;
+    font-size: 2.1810250817884405vh;
+    justify-content:flex-end;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.right {
+    text-align: right;
+    margin-left: auto;
+    width: 640px;
+    margin-top: 50px;
+    
+}
+/* intro first section */
+.f1 {
+    text-align: center;
+    color: #000;
+    font-family: Syne;
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.68px;
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
+hr {
+    width: 50%; /* Adjust the percentage as needed */
+    max-width: 286px; /* Set a maximum width if desired */
+    height: 6px;
+    background: #8B74A4;
+    margin: 0 auto; /* Center the horizontal line */
+}
+
+.fhalf {
+    color: #000;
+    text-align: center;
+    font-family: Syne;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.32533872598584427vw;
+}
+.f2 {
+    color: #000;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 2.2655601659751037vw, 1.75vh;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.f2 h1 {
+    padding-left: 11.919110212335692vw;
+    padding-right: 11.919110212335692vw;
+}
+    /* padding-bottom: 2.0020408163265305vw;
+*/
+
+.Service-Title, .fifth, .sixth, .seventh, .eighth {
+    text-align: center;
+    font-family: "Syne";
+    font-size: 2vh;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #8B74A4;
+    margin: 0;
+    padding-left: 11.919110212335692vw;
+    padding-right: 11.919110212335692vw;
+}
+.Service-Title h1 {
+    font-size: 9vh;
+    font-family: Syne;
+}
+
+.fifth {
+    font-family: "Dm Sans";
+    font-size: 2.2655601659751037vw,2vh;
+}
+
+.Service-Title h1, .fifth h1 {
+    margin: 0; /* Remove margin from the top and bottom */
+}
+
+@media all and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        width: 100%
+    }
+
+    h2, h3, h4, h5 {
+        margin-right: 0; /* Remove right margin for smaller screens */
+        margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+
+    .left h3 {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .right h3 {
+        font-size: 16px;
+        text-align: right;
+        margin-bottom: 5px;
+    }
+}
